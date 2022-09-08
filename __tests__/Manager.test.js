@@ -10,10 +10,10 @@ describe('This test suite tests the Manager class', () => {
     // check that the property 'id' is any number
     expect(newManager.id).toEqual(expect.any(Number));
 
-    // check that the property 'email' is exactly 'squiggles@gmail.com'
+    // check that the property 'email' is exactly 'mckinley.faustin@rawpro.com'
     expect(newManager.email).toBe('mckinley.faustin@rawpro.com');
 
-    // check that the property 'email' is exactly 'squiggles@gmail.com'
+    // check that the property 'Office Number' is exactly '23'
     expect(newManager.officeNumber).toBe('23');
   })
 });

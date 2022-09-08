@@ -10,7 +10,7 @@ describe('This test suite tests the Employee class', () => {
     // check that the property 'id' is any number
     expect(newEmployee.id).toEqual(expect.any(Number));
 
-    // check that the property 'email' is exactly 'squiggles@gmail.com'
+    // check that the property 'email' is exactly 'kieran.faustus@rawpro.com'
     expect(newEmployee.email).toBe('kieran.faustus@rawpro.com');
 
     // describe("Initialization", () => {
