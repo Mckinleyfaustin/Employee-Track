@@ -2,7 +2,7 @@ const Engineer = require('../lib/Engineer');
 
 describe('This test suite tests the Engineer class', () => {
   test("Create a new Engineer object or instance", () => {
-    const newEngineer = new Engineer('Jimmay Franklin', 9299885, 'jimmay.franklin@rawpro.com', 'jfrank99');
+    const newEngineer = new Engineer('Jimmay Franklin', 929985, 'jimmay.franklin@rawpro.com', 'jfrank99');
 
     // check that the property 'name' is any string
     expect(newEngineer.name).toBe('Jimmay Franklin');
