@@ -2,7 +2,7 @@ const Employee = require('../lib/Employee');
 
 describe('This test suite tests the Employee class', () => {
   test("Create a new Employee object or instance", () => {
-    const newEmployee = new Employee('Kieran Faustus', 221094, 'kieran.faustus@rawpro.com');
+    const newEmployee = new Employee('Kieran Faustus', 220294, 'kieran.faustus@rawpro.com');
 
     // check that the property 'name' is any string
     expect(newEmployee.name).toEqual(expect.any(String));

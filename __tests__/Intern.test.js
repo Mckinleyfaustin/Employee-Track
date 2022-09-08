@@ -2,7 +2,7 @@ const Intern = require('../lib/Intern');
 
 describe('This test suite tests the Intern class', () => {
   test("Create a new Intern object or instance", () => {
-    const newIntern = new Intern('Alyssa Foster', 213570, 'alyssa.foster@rawpro.com', 'UNCC');
+    const newIntern = new Intern('Alyssa Foster', 210198, 'alyssa.foster@rawpro.com', 'UNCC');
 
     // check that the property 'name' is any string
     expect(newIntern.name).toBe('Alyssa Foster');
