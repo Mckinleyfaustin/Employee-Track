@@ -55,7 +55,7 @@ THEN I exit the application, and the HTML is generated
 2.  Run 'npm init -y' in terminal
 3.  Run 'npm install jest'
 4.  Run 'npm install inquirer'
-5.  Run 'node questions.js'
+5.  Run 'node index.js'
 6.  Complete prompting questions.
 7.  Enjoy your index.html generated team!
 
