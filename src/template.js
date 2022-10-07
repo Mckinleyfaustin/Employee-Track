@@ -44,8 +44,8 @@ function generateManagerHtml(manager) {
         <ul class="list-group">
             <li class="list-group-item"></li>
             <li class="list-group-item">Email: <a
-                    href="mailto:mckinley.faustin@rawpro.com">mckinley.faustin@rawpro.com</a></li>
-            <li class="list-group-item">Office number: 23</li>
+                    href="mailto:${manager.email}">${manager.email}</a></li>
+            <li class="list-group-item">Office number: ${manager.officeNumber}</li>
         </ul>
     </div>
 </div>
@@ -57,14 +57,15 @@ function generateEngineerHtml(engineer) {
     <div class="card employee-card">
     <div class="card-header">
         <h2 class="card-title">${engineer.name}</h2>
-        <h3 class="card-title"><i class="fa-solid fa-clipboard"></i> Manager</h3>
+        <h3 class="card-title"><i class="fa-solid fa-clipboard"></i> Engineer</h3>
     </div>
     <div class="card-body">
         <ul class="list-group">
             <li class="list-group-item"></li>
             <li class="list-group-item">Email: <a
-                    href="mailto:mckinley.faustin@rawpro.com">mckinley.faustin@rawpro.com</a></li>
-            <li class="list-group-item">Office number: 23</li>
+                    href="mailto:${engineer.email}">${engineer.email}</a></li>
+            <li class="list-group-item">Github: <a href="https://github.com/${engineer.github}" target="_blank"
+            rel="noopener noreferrer">${engineer.github}</li>
         </ul>
     </div>
 </div>
@@ -76,14 +77,14 @@ function generateInternHtml(intern) {
     <div class="card employee-card">
     <div class="card-header">
         <h2 class="card-title">${intern.name}</h2>
-        <h3 class="card-title"><i class="fa-solid fa-clipboard"></i> Manager</h3>
+        <h3 class="card-title"><i class="fa-solid fa-clipboard"></i> Intern</h3>
     </div>
     <div class="card-body">
         <ul class="list-group">
             <li class="list-group-item"></li>
             <li class="list-group-item">Email: <a
-                    href="mailto:mckinley.faustin@rawpro.com">mckinley.faustin@rawpro.com</a></li>
-            <li class="list-group-item">Office number: 23</li>
+                    href="mailto:${intern.email}">${intern.email}</a></li>
+            <li class="list-group-item">School: ${intern.school}</li>
         </ul>
     </div>
 </div>
@@ -105,7 +106,7 @@ function generateTheHTML(employeeArray) {
         }
 
     })
-    
+
 };
 
 module.export = generateTheHTML;
